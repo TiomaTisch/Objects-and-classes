@@ -13,18 +13,18 @@ public class Author {
     }
 
     public String getFirstName() {
-        return firstName;
+        return this.firstName;
     }
 
     public String getMiddleName() {
-        return middleName;
+        return this.middleName;
     }
 
     public String getLastName() {
-        return lastName;
+        return this.lastName;
     }
 
     public String getFullName() {
-        return fullName;
+        return this.fullName;
     }
 }

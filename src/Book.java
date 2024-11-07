@@ -10,13 +10,13 @@ public class Book {
         this.yearPublication = yearPublication;
     }
     public Author getAuthor() {
-        return author;
+        return this.author;
     }
     public String getTitleBook() {
-        return titleBook;
+        return this.titleBook;
     }
     public int getYearPublication() {
-        return yearPublication;
+        return this.yearPublication;
     }
 
 
