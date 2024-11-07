@@ -8,7 +8,7 @@ public class Main {
 
         book1.setYearPublication(1820);
 
-        System.out.println(book1.getTitleBook() + " - " + book1.getAuthor().getFullName() + " " + book1.getYearPublication());
-        System.out.println(book2.getTitleBook() + " - " + book2.getAuthor().getFullName() + " " + book2.getYearPublication());
+        System.out.println(book1.getTitleBook() + " - " + book1.getAuthor().getLastName() + " "  + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getMiddleName() + " " + book1.getYearPublication());
+        System.out.println(book2.getTitleBook() + " - " + book2.getAuthor().getLastName() + " "  + book2.getAuthor().getFirstName() + " " + book2.getAuthor().getMiddleName() + " " + book2.getYearPublication());
     }
 }
